@@ -12,11 +12,11 @@
     <a href="/math/multiply">multiply</a>
     <a href="/math/subtract">subtract</a>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <p>Welcome to <%= title %>:</p>
     <form action="<%= title %>" method="get">
       <input type="number" name="num1" /> <%= symbol %> 
       <input type="number" name="num2" />
-      <br>
+      <br><br>
       <button type="submit">submit</button>
     </form>
     <%if (result || (typeof result === 'number' && !isNaN(result))) { %>
